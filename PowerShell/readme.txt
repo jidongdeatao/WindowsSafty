@@ -1,0 +1,8 @@
+
+
+
+通过Get-ExecutionPolicy，来查看当前策略
+
+Set-ExecutionPolicy Remotesigned可以选择设置当前策略。
+或者使用
+Set-ExecutionPolicy Unrestricted来直接设置当前策略为可以使用管理员权限执行powershell脚本
